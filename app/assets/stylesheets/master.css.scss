@@ -1,0 +1,32 @@
+@import "bootstrap";
+
+@import url(http://fonts.googleapis.com/css?family=Marcellus+SC);
+
+.see-box {
+	box-shadow: 2px -2px 2px 2px rgba(36,32,33,0.50);
+	background-color: rgba(36,32,33,0.50);
+	padding: 1%;
+	margin-top: 50px;
+
+}
+
+body {
+  background: url('camera.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+}
+
+.custom-h1 {
+	color: white;
+}
+
+.navbar-brand {
+	font-family: 'Marcellus+SC';
+}
