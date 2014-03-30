@@ -7,6 +7,7 @@ Vinster::Application.routes.draw do
    resources :posts
    resources :home
 
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

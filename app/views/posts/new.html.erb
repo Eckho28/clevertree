@@ -1,0 +1,19 @@
+<div class="col-xs-6 col-xs-offset-3 see-box text-center">
+
+<h2>Upload</h2>
+
+<br/>
+<br/>
+
+<%= simple_form_for @post do |f| %>
+	<%= f.input :title, label: 'What is it?' %>
+	<br/>
+	<%= f.input :description, label: 'Say some more', placeholder: 'This is the best cat' %>
+	<br/>
+	<%= f.input :DL, label: "Upload Driver's License" %>
+	<br/>
+	<%= f.button :submit, :class => 'btn btn-warning' %>
+
+<% end %>
+
+</div>
