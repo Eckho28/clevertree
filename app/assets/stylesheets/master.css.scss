@@ -25,7 +25,7 @@ margin-top: 10px;
 }
 
 body {
-	  background: url('leaf.jpg') no-repeat center center fixed;
+	  background: url('leaf.jpg');
 
   font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
@@ -40,7 +40,7 @@ body {
 }
 
 .posts {
-	  background: url('leaf.jpg');
+	  background: url('leaf.jpg') no-repeat center center fixed;
 }
 
 .custom-h1 {

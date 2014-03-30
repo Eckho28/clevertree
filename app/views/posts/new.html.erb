@@ -6,11 +6,11 @@
 <br/>
 
 <%= simple_form_for @post do |f| %>
-	<%= f.input :title, label: 'What is it?' %>
+	<%= f.input :title, label: 'Name', placeholder: 'E.g. OG Kush' %>
 	<br/>
-	<%= f.input :description, label: 'Say some more', placeholder: 'This is the best cat' %>
+	<%= f.input :description, label: 'Description', placeholder: 'E.g. This is some goooood shiiitt...' %>
 	<br/>
-	<%= f.input :DL, label: "Upload Driver's License" %>
+	<%= f.input :DL, label: "Image" %>
 	<br/>
 	<%= f.button :submit, :class => 'btn btn-warning' %>
 
