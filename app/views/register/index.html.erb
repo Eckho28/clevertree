@@ -1,0 +1,27 @@
+<div class="col-xs-6 col-xs-offset-3 see-box text-center">
+
+<h2>Register</h2>
+
+<br/>
+<br/>
+
+<%= simple_form_for @register, :url => register_index_path do |f| %>
+	<%= f.input :name, label: 'Full Name', placeholder: 'E.g. John Smith' %>
+	<br/>
+	<%= f.input :email, label: 'Email', placeholder: 'E.g. myname@email.com' %>
+	<br/>
+	<%= f.input :password, label: 'Create Password' %>
+	<br/>
+	<%= f.input :password_confirmation, label: 'Confirm Password', :as => 'password' %>
+	<br/>
+	<%= f.input :verification, label: "Verification site" %>
+	<br/>
+	<%= f.input :dl, label: "Upload Driver's License (Must be a Sacramento resident)" %>
+	<br/>
+	<%= f.input :rec, label: "Upload Recommendation" %>
+	<br/>
+	<%= f.button :submit, label: "Register!", :class => 'btn btn-warning' %>
+
+<% end %>
+
+</div>

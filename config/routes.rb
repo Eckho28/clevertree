@@ -6,6 +6,7 @@ Vinster::Application.routes.draw do
    root 'static_pages#index'
    resources :posts
    resources :home
+   resources :register
 
 
   # Example of regular route:
